@@ -1,0 +1,19 @@
+name: ArthorianCMD
+main: ie.paradaux.microcommands.Main
+version: 1.0
+commands:
+    arthorian:
+        description: Information Regarding Arthorian.
+        usage: /arthorian
+    arthorianadmin:
+        description: Information Regarding Arthorian.
+        permission: arthorian.admin
+        usage: /arthorian
+    myclearchat:
+        description: Information Regarding Arthorian.
+        permission: arthorian.clearchat
+        usage: /arthorian
+    clearchat:
+        description: Information Regarding Arthorian.
+        permission: arthorian.admin
+        usage: /arthorian
