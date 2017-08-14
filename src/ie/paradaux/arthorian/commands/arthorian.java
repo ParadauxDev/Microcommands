@@ -1,10 +1,10 @@
-package ie.paradaux.microcommands.cmd;
+package ie.paradaux.arthorian.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import ie.paradaux.microcommands.mn.language;
+import ie.paradaux.arthorian.api.language;
 
 public class arthorian implements CommandExecutor {
 	@Override

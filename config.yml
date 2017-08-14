@@ -1,2 +1,9 @@
 #Unused in this version.
 version: nil
+
+
+
+
+storage:
+  punishing:
+      - player1

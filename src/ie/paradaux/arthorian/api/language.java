@@ -1,4 +1,4 @@
-package ie.paradaux.microcommands.mn;
+package ie.paradaux.arthorian.api;
 
 import org.bukkit.command.CommandSender;
 
@@ -35,5 +35,8 @@ public class language {
 		defineCMD(sender, "/clearchat", "Clears chat, globally.");
 		defineCMD(sender, "/freeze", "Keeps a player @ y: 4096");
 		sender.sendMessage(ChatColor.GRAY + "More coming soon.... I hope..");
+	}
+	public static void unavailable(CommandSender sender) {
+		sender.sendMessage(language.prefix + " This command is currently unavailable.");
 	}
 }

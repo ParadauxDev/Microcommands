@@ -8,12 +8,24 @@ commands:
     arthorianadmin:
         description: Information Regarding Arthorian.
         permission: arthorian.admin
-        usage: /arthorian
-    myclearchat:
-        description: Information Regarding Arthorian.
-        permission: arthorian.clearchat
-        usage: /arthorian
+        usage: /arthorianadmin
+        aliases: [admin, aadmin, aa, a]
     clearchat:
-        description: Information Regarding Arthorian.
-        permission: arthorian.admin
+        description: Clears your chat or a specified players chat
         usage: /arthorian
+    gclearchat:
+        description: Globally clears chat
+        permission: arthorian.admin
+        usage: /gclearchats
+    freeze:
+        description: Teleport a player to 4096 reptitivley 
+        permission: arthorian.admin
+        usage: /freeze <player> <time>
+    makestaff:
+        description: Promotes a player
+        permission: arthorian.netman
+        usage: /makestaff <player> <rank>
+    demote:
+        description: Globally clears chat
+        permission: arthorian.netman
+        usage: /demote <player>
