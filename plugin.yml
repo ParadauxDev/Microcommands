@@ -1,6 +1,6 @@
 name: ArthorianCMD
-main: ie.paradaux.microcommands.Main
-version: 1.0
+main: ie.paradaux.arthorian.Main
+version: 2.0
 commands:
     arthorian:
         description: Information Regarding Arthorian.
